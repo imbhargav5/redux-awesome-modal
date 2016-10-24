@@ -1,17 +1,16 @@
 {
   "name": "redux-awesome-modal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean" : "rimraf dist",
+    "clean": "rimraf dist",
     "build": "npm run clean && node_modules/babel-cli/bin/babel.js src --out-dir dist"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0-0",
     "redux": "^2.0.0 || ^3.0.0"

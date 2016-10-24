@@ -16,6 +16,7 @@ A redux Modal component which allows you to pass props to the modal child.
 
     class MyModalComponent extends Component{
       render(){
+        //Access props passed down from the Modal component
         const {count} = this.props;
         return <div style={{padding: "16px 24px"}}>{count}</div>
       }
@@ -48,7 +49,10 @@ A redux Modal component which allows you to pass props to the modal child.
       render(){
         const {modal} = this.props;
         console.log(modal);
-          return 	<div>
+           // pass props to modal children.. the second argument of show_modal, you can also pass methods to change redux state
+           // hide_modal is the third argument which will close the modal on overlay_click
+           // you can do some other stuff with the 3rd argument before closing hide_modal
+          return <div>
               <button onClick={()=>this.props.show_modal('modal_one',{
                  count : 1
               },()=>this.props.hide_modal())}> Show Modal </button>

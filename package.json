@@ -8,6 +8,16 @@
     "clean": "rimraf dist",
     "build": "npm run clean && node_modules/babel-cli/bin/babel.js src --out-dir dist"
   },
+  "keywords":[
+    "react",
+    "redux",
+    "react modal",
+    "redux modal",
+    "react redux modal",
+    "awesome modal",
+    "modal component",
+    "react component"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {},

@@ -1,6 +1,6 @@
 {
   "name": "redux-awesome-modal",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "clean": "rimraf dist",
     "build": "npm run clean && node_modules/babel-cli/bin/babel.js src --out-dir dist"
   },
-  "keywords":[
+  "keywords": [
     "react",
     "redux",
     "react modal",

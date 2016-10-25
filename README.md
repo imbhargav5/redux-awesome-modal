@@ -70,7 +70,9 @@ const App = connect(mapAppStateToProps,{
           {this.props.children}
 
           <Modal {...modal} modal_components={{
-            "modal_one" : C
+            "modal_one" : MyModalComponent,
+            "modal_two" : MyOtherModalComponent,
+            ...
           }} />
 
       </div>;

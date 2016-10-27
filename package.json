@@ -1,6 +1,6 @@
 {
   "name": "redux-awesome-modal",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -8,10 +8,10 @@
     "clean": "rimraf dist",
     "build": "npm run clean && node_modules/babel-cli/bin/babel.js src --out-dir dist"
   },
-"repository" :
-  { "type" : "git",
- "url":"https://github.com/bhargav175/redux-awesome-modal"  
-},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhargav175/redux-awesome-modal"
+  },
   "keywords": [
     "react",
     "redux",
